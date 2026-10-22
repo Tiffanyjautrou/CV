@@ -1,0 +1,149 @@
+*{
+    box-sizing : border-box;
+}
+
+body{
+    background-color : #fbf8f1;
+    color : #2f3a4a; 
+    font-family: Arial, sans-serif;
+    line-height : 1.3;
+    margin : 0;
+}
+
+header{
+    background-color: #023626bb;
+    color : white; 
+    padding : 16px 24px; 
+    display : flex; 
+    justify-content : space-between; 
+    align-items : center; 
+}
+
+nav a{
+    display : flex;
+    color : white;
+    text-decoration : none;
+    gap : 12px; 
+}
+
+nav a:hover{
+    color : blue;
+}
+
+img{
+    display : flex; 
+    border-radius : 50px; 
+    justify-content : flex-end;
+}
+
+main{
+    max-width : 1000px; 
+    margin : 0 auto; 
+    padding : 10px; 
+}
+
+section, form{
+    background-color : white; 
+    padding : 15px; 
+    border : 2px solid #03453064;
+    border-radius : 10px;
+    box-shadow : 0 3px 10px rgb(0 0 0 /20%);
+    margin-bottom : 20px; 
+}
+
+label{
+    display : block; 
+}
+
+input, textarea{
+    width : 100%; 
+}
+
+.coche{
+    display : flex; 
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.coche label {
+    display: inline;
+}
+
+.coche input[type="checkbox"] {
+    width: auto;
+}
+
+input:focus, textarea:focus {
+    outline : 1px solid #03453064;
+}
+
+.conteneur{
+    display : flex; 
+    flex-wrap : wrap; 
+    gap : 12px;
+}
+
+.loisirs{
+    background-color : #03453064; 
+    padding : 12px; 
+    border-radius : 8px; 
+    flex : 1 1 150px; 
+}
+
+h2{
+    color : #023626bb;
+}
+
+strong{
+    color : gray; 
+}
+
+th{
+    border : 1px solid gray; 
+    padding : 8px 12px; 
+    background-color :#023626bb; 
+    color : white; 
+}
+
+td{
+    border : 1px solid gray; 
+    padding : 8px 12px; 
+}
+
+tr:nth-child(even){
+    background-color : #4c685f64; 
+}
+
+footer{
+    background-color: #023626bb;
+    color : white; 
+}
+
+button:hover {
+    background-color : rgb(7, 59, 7); 
+}
+
+#accueil{
+  color : #023626bb; 
+  font-style : italic; 
+}
+
+body.sombre{
+  background-color : #2f3a4a;
+  color : rgb(7, 59, 7);
+}
+
+body.sombre section{
+  background-color : #3b4759;
+  color : white;
+}
+
+body.sombre h2{
+  background-color : #3b4759;
+  color : white;
+}
+
+body.sombre #accueil{
+  color : white;
+}
